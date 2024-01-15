@@ -1,11 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import home from '../components/Home.vue'
 import about from '../components/About.vue'
+import newcomp from '../components/newpagecomponent.vue'
 import hooks from '../components/basic/Hooks.vue'
 
 const routes = [
     {
-        path: '/',
+        path: '/home',
         name: 'home',
         component: home
     },
@@ -13,6 +14,11 @@ const routes = [
         path: '/about',
         name: 'about',
         component: about
+    },
+    {
+        path: '/newcomp',
+        name: 'newcomp',
+        component: newcomp,
     },
 
     // vue hooks
@@ -30,4 +36,4 @@ const router = createRouter({
     routes
 });
 
-export default router;
+export default router; 

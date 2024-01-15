@@ -1,6 +1,6 @@
 <template>
     <div>   
 
-        <h1> from 2nd new component.vue</h1>
+        <div class="text-red-300 text-4xl">hi hellow, from newpagecomponent</div>
     </div>
 </template>
