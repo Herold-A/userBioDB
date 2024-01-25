@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel practiscing with vue js</title>
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/css/app.css', 'resources/css/test.css', 'resources/css/test2.css', 'resources/js/app.js'])
+
+      
     </head>      
         <!-- <body class="antialiased">
              <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
@@ -26,7 +28,7 @@
            
          
 
-          
+
             </div>
         </div>
     </body> -->

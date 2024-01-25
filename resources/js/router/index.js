@@ -3,6 +3,7 @@ import home from '../components/Home.vue'
 import about from '../components/About.vue'
 import newcomp from '../components/newpagecomponent.vue'
 import hooks from '../components/basic/Hooks.vue'
+import methods from '../components/basic/methods.vue'
 
 const routes = [
     {
@@ -26,6 +27,14 @@ const routes = [
         path: '/hooks',
         name: 'hooks',
         component: hooks
+    },
+    
+    // methodes
+
+    {
+        path: '/methods',
+        name: 'methods',
+        component: methods
     },
     
 ]

@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1 ref="myref" class="text-red-500">welcome to hooks</h1>
-        <h2>my name is {{ name }}</h2>
+        <h2>my name is {{ name }} and I am {{ gender }} and i am  {{ age }} yrs old</h2>
     </div>
 </template>
 
@@ -10,7 +10,9 @@
 export default {                 //  <--- this is the local memory of this hooks vue template
     data() {
         return {
-                name: 'herold'
+                name: 'herold',
+                age: 37,
+                gender: 'male'
         } 
     },
         

@@ -1,4 +1,4 @@
-<template>
+<--<template>
     <div>
         <h1 class="text-4xl">Hello! from app.vue</h1>
              <br><br>
@@ -6,4 +6,12 @@
         <router-view></router-view>     
     </div>
 </template>
+-->
 
+
+
+<template>
+    <div>
+        
+    </div>
+</template>
